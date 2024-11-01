@@ -1,0 +1,30 @@
+/**
+ * Filmfeed styles
+ *
+ * @category   WordPress
+ * @package    WordPress
+ * @subpackage Wp-Filmfeed
+ * @author     Sergey Storchay <r8@r8.com.ua>
+ * @copyright  2012-2013 Sergey Storchay (email: r8@r8.com.ua)
+ * @license    http://www.gnu.org/licenses/gpl-2.0.txt GPL2
+ * @link       http://r8.github.com/wp-filmfeed/
+ */
+
+ul#filmfeed_list {
+    margin: 5px 0 0 5px;
+    padding: 0;
+}
+
+ul#filmfeed_list li {
+    display: inline;
+    list-style: none none;
+}
+
+ul#filmfeed_list li a img {
+    background: #E8E5DC;
+    border: 1px solid #E8E5DC;
+}
+
+.filmfeed_clear {
+    clear: both;
+}
